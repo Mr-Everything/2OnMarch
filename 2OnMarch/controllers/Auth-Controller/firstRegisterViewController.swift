@@ -17,6 +17,7 @@ UINavigationControllerDelegate {
     @IBOutlet weak var emailTF: UITextField!
     @IBOutlet weak var phoneTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
+    @IBOutlet weak var bioTF: UITextField!
     @IBOutlet weak var profileImage: UIImageView!
     
     var imagePicker = UIImagePickerController() // UIimage picker set it's delegate to self
