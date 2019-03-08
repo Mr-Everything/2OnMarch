@@ -1,0 +1,74 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Cosmos (18.0.1)
+  - FBSDKCoreKit (4.38.1):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.38.1):
+    - FBSDKCoreKit
+  - IQKeyboardManager (6.2.0)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - QRCode (2.0)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SideMenuSwift (1.0.1)
+  - SkyFloatingLabelTextField (3.6.0)
+  - SwiftyJSON (4.2.0)
+  - XLPagerTabStrip (8.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cosmos (~> 18.0)
+  - FBSDKCoreKit (~> 4.38.0)
+  - FBSDKLoginKit (~> 4.38.0)
+  - IQKeyboardManager
+  - NVActivityIndicatorView
+  - QRCode
+  - SDWebImage
+  - SideMenuSwift
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SwiftyJSON
+  - XLPagerTabStrip (~> 8.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - Cosmos
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - IQKeyboardManager
+    - NVActivityIndicatorView
+    - QRCode
+    - SDWebImage
+    - SideMenuSwift
+    - SkyFloatingLabelTextField
+    - SwiftyJSON
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
+  FBSDKCoreKit: 8d47857400e2f5bdea697a80daff882e91c84ef6
+  FBSDKLoginKit: 4621c690d9dd8628031a4791497062183ea34b0d
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SideMenuSwift: a78d47182aa03b5c07570fe57d3ba22c4561f2ce
+  SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  XLPagerTabStrip: 22d4c58200d7c105e0e407ab6bfd01a5d85014be
+
+PODFILE CHECKSUM: b4aee14aa4fb2b04bdf776f78737f6a8444488fb
+
+COCOAPODS: 1.6.0.beta.2
