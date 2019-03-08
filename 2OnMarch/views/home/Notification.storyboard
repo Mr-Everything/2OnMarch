@@ -28,7 +28,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uco-nu-K54" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1911" y="324"/>
+            <point key="canvasLocation" x="-1452" y="597"/>
         </scene>
         <!--Calender View Controller-->
         <scene sceneID="Jyu-Za-VfE">
@@ -272,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="84V-17-fJV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2909.5999999999999" y="-434.03298350824593"/>
+            <point key="canvasLocation" x="-2526" y="597"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="ppL-iD-H2v">
