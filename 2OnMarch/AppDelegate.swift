@@ -19,7 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared().isEnabled = true 
         UIApplication.shared.statusBarView?.backgroundColor = Theme.NavigationColor
         
-        
         return true
     }
 
