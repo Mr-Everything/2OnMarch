@@ -16,6 +16,7 @@ target '2OnMarch' do
   pod 'XLPagerTabStrip', '~> 8.1'
   pod "QRCode"
   pod 'SkyFloatingLabelTextField', '~> 3.0'
+  pod 'QRCodeReader.swift', '~> 10.0.0'
 
 
 end

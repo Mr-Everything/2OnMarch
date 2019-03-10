@@ -87,7 +87,12 @@ class SpeakersDataModel {
                 self.UserPageModel?.Location = UserPageModel["Location"]?.string
                 self.UserPageModel?.IsFavorite = UserPageModel["Id"]?.bool
                 
-                // self.UserPageModel?.UserPageGallaryModels = UserPageModel["UserPageGallaryModels"]?.dictionary
+                if let UserPageGallaryModels = UserPageModel["UserPageGallaryModels"]?.array {
+                    UserPageGallaryModels.forEach { (element) in
+                        self.UserPageModel?.UserPageGallaryModels.append(UserPageGallaryDataModel(object: element))
+                    }
+                }
+                
             }
             
         } // end of dictionary check

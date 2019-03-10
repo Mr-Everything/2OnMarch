@@ -15,6 +15,8 @@ class SettingViewController: UIViewController {
     
     let logoArr = ["menu_contact", "menu_speakers", "menu_map" , "menu_fav", "menu_food","menu_sponsors" , "menu_about", "logout"]
     let nameArr = ["Contacts", "Speakers", "Map" , "Favorites", "Food" , "Sponsors", "About" , "Logout"]
+    let references  = ["displayContactsViewController", "displaySpeakersViewController"]
+    
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var company: UILabel!
     @IBOutlet weak var profession: UILabel!
@@ -49,6 +51,11 @@ extension SettingViewController: UITableViewDataSource , UITableViewDelegate {
         return cell
     }
     
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == nameArr.count {
+            // logot
+        }
+        performSegue(withIdentifier: self.references[indexPath.row], sender: self)
+    }
     
 }

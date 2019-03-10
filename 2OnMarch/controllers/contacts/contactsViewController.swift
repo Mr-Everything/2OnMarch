@@ -1,15 +1,16 @@
 //
-//  qrcodeViewController.swift
+//  contactsViewController.swift
 //  2OnMarch
 //
-//  Created by rocky on 2/24/19.
+//  Created by rocky on 3/9/19.
 //  Copyright © 2019 dinnova. All rights reserved.
 //
 
+
 import UIKit
 import XLPagerTabStrip
-// import QRCode
-class qrcodeViewController: ButtonBarPagerTabStripViewController {
+
+class contactsViewController: ButtonBarPagerTabStripViewController, IndicatorInfoProvider {
     
     override func viewDidLoad() {
         
@@ -30,13 +31,21 @@ class qrcodeViewController: ButtonBarPagerTabStripViewController {
         super.viewDidDisappear(true)
     }
     
+    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
+        return IndicatorInfo(title: "FOLLOWING")
+    }
+    
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
         
-        let notification = StoryBoard.returnViewController(sb: "segmented", identifier: "scanSegmentedViewController")
-        let announcment = StoryBoard.returnViewController(sb: "segmented", identifier: "myCodeSegmentedViewController")
+        let notification = StoryBoard.returnViewController(sb: "segmented", identifier: "followingSegmentedViewController")
+        let announcment = StoryBoard.returnViewController(sb: "segmented", identifier: "followersSegmentedViewController")
         
         return [notification, announcment]
     }
-
+    
+    @IBAction func back(_ sender: UIButton) {
+        dismiss(animated: true)
+    }
+    
     
 }

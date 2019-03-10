@@ -18,7 +18,15 @@
 		8AE40122222ECBA3005DCF6B /* makerActivityJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE40121222ECBA3005DCF6B /* makerActivityJoinViewController.swift */; };
 		8AE40125222ED7EF005DCF6B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE40124222ED7EF005DCF6B /* SettingViewController.swift */; };
 		ABC5E1ED386EEC5EB7850FF1 /* Pods_2OnMarch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61862DE3013D838F46C47518 /* Pods_2OnMarch.framework */; };
-		B024AA8E2221960000EF7C43 /* segmented.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B024AA8D2221960000EF7C43 /* segmented.storyboard */; };
+		B01749B022340EE10063B2C5 /* settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01749AF22340EE10063B2C5 /* settings.storyboard */; };
+		B01749B222340F0A0063B2C5 /* speakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01749B122340F0A0063B2C5 /* speakersViewController.swift */; };
+		B01749B522341B200063B2C5 /* applicationExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01749B422341B200063B2C5 /* applicationExt.swift */; };
+		B01749B8223427A60063B2C5 /* contactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01749B7223427A60063B2C5 /* contactsViewController.swift */; };
+		B01749BB223427FB0063B2C5 /* followingSegemntedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01749BA223427FB0063B2C5 /* followingSegemntedViewController.swift */; };
+		B01749BD2234280B0063B2C5 /* followersSegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01749BC2234280B0063B2C5 /* followersSegmentedViewController.swift */; };
+		B01D064C2233FF31009571B5 /* segmented.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B01D064B2233FF31009571B5 /* segmented.storyboard */; };
+		B01D06502233FFA0009571B5 /* scanSegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D064F2233FFA0009571B5 /* scanSegmentedViewController.swift */; };
+		B01D06522233FFE1009571B5 /* myCodeSegmentedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01D06512233FFE1009571B5 /* myCodeSegmentedViewController.swift */; };
 		B03494EB2225CDBD004B1868 /* UserPageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03494EA2225CDBD004B1868 /* UserPageDataModel.swift */; };
 		B03C66D5220B24BD0091ECDB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03C66D4220B24BD0091ECDB /* Request.swift */; };
 		B03C66D8220B329D0091ECDB /* UIViewControllerextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03C66D7220B329D0091ECDB /* UIViewControllerextension.swift */; };
@@ -102,7 +110,15 @@
 		8AE4011C222EBADC005DCF6B /* userPageFunctionalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userPageFunctionalModel.swift; sourceTree = "<group>"; };
 		8AE40121222ECBA3005DCF6B /* makerActivityJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makerActivityJoinViewController.swift; sourceTree = "<group>"; };
 		8AE40124222ED7EF005DCF6B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		B024AA8D2221960000EF7C43 /* segmented.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = segmented.storyboard; sourceTree = "<group>"; };
+		B01749AF22340EE10063B2C5 /* settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = settings.storyboard; sourceTree = "<group>"; };
+		B01749B122340F0A0063B2C5 /* speakersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = speakersViewController.swift; sourceTree = "<group>"; };
+		B01749B422341B200063B2C5 /* applicationExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applicationExt.swift; sourceTree = "<group>"; };
+		B01749B7223427A60063B2C5 /* contactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactsViewController.swift; sourceTree = "<group>"; };
+		B01749BA223427FB0063B2C5 /* followingSegemntedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followingSegemntedViewController.swift; sourceTree = "<group>"; };
+		B01749BC2234280B0063B2C5 /* followersSegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = followersSegmentedViewController.swift; sourceTree = "<group>"; };
+		B01D064B2233FF31009571B5 /* segmented.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = segmented.storyboard; sourceTree = "<group>"; };
+		B01D064F2233FFA0009571B5 /* scanSegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scanSegmentedViewController.swift; sourceTree = "<group>"; };
+		B01D06512233FFE1009571B5 /* myCodeSegmentedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCodeSegmentedViewController.swift; sourceTree = "<group>"; };
 		B03494EA2225CDBD004B1868 /* UserPageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPageDataModel.swift; sourceTree = "<group>"; };
 		B03C66D4220B24BD0091ECDB /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		B03C66D7220B329D0091ECDB /* UIViewControllerextension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerextension.swift; sourceTree = "<group>"; };
@@ -230,13 +246,6 @@
 			path = maker;
 			sourceTree = "<group>";
 		};
-		8AE4011E222EBB37005DCF6B /* activity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = activity;
-			sourceTree = "<group>";
-		};
 		8AE40120222ECB6B005DCF6B /* makers&activity */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,14 +259,59 @@
 			isa = PBXGroup;
 			children = (
 				8AE40124222ED7EF005DCF6B /* SettingViewController.swift */,
+				B01749B122340F0A0063B2C5 /* speakersViewController.swift */,
 			);
 			path = setting;
 			sourceTree = "<group>";
 		};
-		B024AA8A222194A300EF7C43 /* segmented */ = {
+		B01749AE22340ED50063B2C5 /* settings */ = {
 			isa = PBXGroup;
 			children = (
-				B024AA8D2221960000EF7C43 /* segmented.storyboard */,
+				B01749AF22340EE10063B2C5 /* settings.storyboard */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		B01749B322341B080063B2C5 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				B01749B422341B200063B2C5 /* applicationExt.swift */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		B01749B6223427980063B2C5 /* contacts */ = {
+			isa = PBXGroup;
+			children = (
+				B01749B9223427E10063B2C5 /* segmented */,
+				B01749B7223427A60063B2C5 /* contactsViewController.swift */,
+			);
+			path = contacts;
+			sourceTree = "<group>";
+		};
+		B01749B9223427E10063B2C5 /* segmented */ = {
+			isa = PBXGroup;
+			children = (
+				B01749BA223427FB0063B2C5 /* followingSegemntedViewController.swift */,
+				B01749BC2234280B0063B2C5 /* followersSegmentedViewController.swift */,
+			);
+			path = segmented;
+			sourceTree = "<group>";
+		};
+		B01D064D2233FF37009571B5 /* segmented */ = {
+			isa = PBXGroup;
+			children = (
+				B01D064B2233FF31009571B5 /* segmented.storyboard */,
+			);
+			name = segmented;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B01D064E2233FF7A009571B5 /* segmented */ = {
+			isa = PBXGroup;
+			children = (
+				B01D064F2233FFA0009571B5 /* scanSegmentedViewController.swift */,
+				B01D06512233FFE1009571B5 /* myCodeSegmentedViewController.swift */,
 			);
 			path = segmented;
 			sourceTree = "<group>";
@@ -355,6 +409,7 @@
 		B0573E76220AE8D4009E20DC /* extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B01749B322341B080063B2C5 /* UIApplication */,
 				B09E88BC221B5B710030A375 /* UITableViewCell */,
 				B0BB8298220C79E8002638E2 /* UICollectionView */,
 				B0BB8295220C79D7002638E2 /* UITableView */,
@@ -378,7 +433,8 @@
 		B0573E78220AE8E4009E20DC /* views */ = {
 			isa = PBXGroup;
 			children = (
-				B024AA8A222194A300EF7C43 /* segmented */,
+				B01749AE22340ED50063B2C5 /* settings */,
+				B01D064D2233FF37009571B5 /* segmented */,
 				B0BE2A34221DE8D7004E2521 /* home */,
 				B09E88BF221C27B10030A375 /* 4Feeds */,
 				B0573E7C220AE924009E20DC /* Auth-Storyboard */,
@@ -389,6 +445,7 @@
 		B0573E79220AE8E9009E20DC /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B01749B6223427980063B2C5 /* contacts */,
 				8AE40123222ED797005DCF6B /* setting */,
 				8AE40112222EB273005DCF6B /* commonMakerActivity controllers */,
 				B082312E222204AA00325F8C /* QRCode */,
@@ -494,7 +551,6 @@
 			isa = PBXGroup;
 			children = (
 				8AE40119222EBAA1005DCF6B /* maker */,
-				8AE4011E222EBB37005DCF6B /* activity */,
 				B0F30D362227393B00D4F57E /* UserPageGallaryDataModel */,
 				B0F30D312227358A00D4F57E /* Speakers */,
 				B0F30D2C2227337C00D4F57E /* AgendaRateModel */,
@@ -563,6 +619,7 @@
 		B082312E222204AA00325F8C /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
+				B01D064E2233FF7A009571B5 /* segmented */,
 				B082312F222204C000325F8C /* qrcodeViewController.swift */,
 			);
 			path = QRCode;
@@ -862,10 +919,11 @@
 				B0BB82A1220C7DBA002638E2 /* professionsCollectionViewCell.xib in Resources */,
 				B0573E6C220AE8A4009E20DC /* Assets.xcassets in Resources */,
 				B082312D2221CC1F00325F8C /* calenderTableViewCell.xib in Resources */,
+				B01D064C2233FF31009571B5 /* segmented.storyboard in Resources */,
 				B09E88C1221C2A770030A375 /* feeds.storyboard in Resources */,
 				B0573E6A220AE8A2009E20DC /* Auth.storyboard in Resources */,
 				B09E88BB221B55DF0030A375 /* speratorTableViewCell.xib in Resources */,
-				B024AA8E2221960000EF7C43 /* segmented.storyboard in Resources */,
+				B01749B022340EE10063B2C5 /* settings.storyboard in Resources */,
 				B09E88C9221C2E120030A375 /* feedsTableViewCell.xib in Resources */,
 				B09E88B2221B4C5D0030A375 /* interestesTableViewCell.xib in Resources */,
 				B0BE2A3D221DEB47004E2521 /* Notification.storyboard in Resources */,
@@ -893,6 +951,7 @@
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/QRCode/QRCode.framework",
+				"${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SideMenuSwift/SideMenuSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
@@ -911,6 +970,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QRCodeReader.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenuSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
@@ -962,6 +1022,7 @@
 				B09E88C8221C2E120030A375 /* feedsTableViewCell.swift in Sources */,
 				8AE4011D222EBADC005DCF6B /* userPageFunctionalModel.swift in Sources */,
 				8AE40110222EB202005DCF6B /* activityTableViewCell.swift in Sources */,
+				B01749B522341B200063B2C5 /* applicationExt.swift in Sources */,
 				B0BB8297220C79E5002638E2 /* Tableextension.swift in Sources */,
 				B03C66E1220B3FA80091ECDB /* PopupHandler.swift in Sources */,
 				B0F30D2E2227338E00D4F57E /* AgendaRateDataModel.swift in Sources */,
@@ -971,6 +1032,7 @@
 				B0F30D3A2227394E00D4F57E /* UserPageGallaryFunctionalModel.swift in Sources */,
 				B0BE2A39221DE902004E2521 /* NotificationFunctionModel.swift in Sources */,
 				B08231282221CB5200325F8C /* calenderViewController.swift in Sources */,
+				B01749BB223427FB0063B2C5 /* followingSegemntedViewController.swift in Sources */,
 				B0573E83220AEADF009E20DC /* stringextension.swift in Sources */,
 				B0BB8290220C5905002638E2 /* secondRegisterViewController.swift in Sources */,
 				B067BC9F220B09610071D42B /* mainModel.swift in Sources */,
@@ -985,13 +1047,16 @@
 				B09E88D4221C35B00030A375 /* mainFeedsViewController.swift in Sources */,
 				B0573E8B220AF8EA009E20DC /* IBDesignableStackView.swift in Sources */,
 				B03C66E4220B40540091ECDB /* forgetPasswordViewController.swift in Sources */,
+				B01749B222340F0A0063B2C5 /* speakersViewController.swift in Sources */,
 				B0573E86220AF5A8009E20DC /* Theme.swift in Sources */,
 				B067BC98220B02F10071D42B /* Validate.swift in Sources */,
 				B0F30D262227277100D4F57E /* AnnouncementsFunctionalModel.swift in Sources */,
 				B09E88B1221B4C5D0030A375 /* interestesTableViewCell.swift in Sources */,
 				B0BE2A37221DE8F2004E2521 /* NotificationDataModel.swift in Sources */,
+				B01749B8223427A60063B2C5 /* contactsViewController.swift in Sources */,
 				B0F30D332227359400D4F57E /* SpeakersDataModel.swift in Sources */,
 				B0F30D242227276500D4F57E /* AnnouncementsDataModel.swift in Sources */,
+				B01749BD2234280B0063B2C5 /* followersSegmentedViewController.swift in Sources */,
 				B0F30D2B2227304100D4F57E /* AgendaFunctionalModel.swift in Sources */,
 				8AE40125222ED7EF005DCF6B /* SettingViewController.swift in Sources */,
 				B0BB828E220C58F8002638E2 /* firstRegisterViewController.swift in Sources */,
@@ -1003,6 +1068,7 @@
 				B03494EB2225CDBD004B1868 /* UserPageDataModel.swift in Sources */,
 				B09E88CE221C306D0030A375 /* InterestFunctionModel.swift in Sources */,
 				B03C66DA220B34450091ECDB /* Data.swift in Sources */,
+				B01D06502233FFA0009571B5 /* scanSegmentedViewController.swift in Sources */,
 				B082312C2221CC1F00325F8C /* calenderTableViewCell.swift in Sources */,
 				8AE4010C222EB1EB005DCF6B /* makerTableViewCell.swift in Sources */,
 				B09E88CC221C305E0030A375 /* InterestDataModel.swift in Sources */,
@@ -1011,6 +1077,7 @@
 				B09E88B7221B52C60030A375 /* Constants.swift in Sources */,
 				B0F30D292227303200D4F57E /* AgendaDataModel.swift in Sources */,
 				B0BE2A3F221DED75004E2521 /* UIImageViewextension.swift in Sources */,
+				B01D06522233FFE1009571B5 /* myCodeSegmentedViewController.swift in Sources */,
 				B08231252221986400325F8C /* IBDesignableBarItem.swift in Sources */,
 				B0DCAAEB2221736B00657DEB /* notificationSegmentedViewController.swift in Sources */,
 				B09E88BE221B5B990030A375 /* TableViewCellExtension.swift in Sources */,

@@ -22,6 +22,13 @@ class makerTableViewCell: UITableViewCell {
         self.makerLogo.findMe(url: maker.PhotoUrl, raduis: true)
         self.makerName.text = maker.Name
     }
+    
+    func configCell (speaker: SpeakersDataModel){
+        self.makerLogo.findMe(url: speaker.PhotoUrl, raduis: true)
+        self.makerName.text = speaker.Name
+    }
+    
+    
     @IBAction func starButton(_ sender: UIButton) {
         addMakerToFavorite?()
     }

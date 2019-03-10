@@ -34,8 +34,8 @@ class UserDataModel  {
     public var Behance:String?
     public var Image:String?
     public var ImageUploaded:UIImage?
-    //public var UserInterestModel = "UserPageModel";
-    //public var UserPageModel = "UserPageModel";
+    public var UserInterestModel = "UserPageModel";
+    public var UserPageModel = [UserPageDataModel]()
     
     init() {
         
@@ -65,7 +65,6 @@ class UserDataModel  {
             // bool
             self.IsFavourite = user["IsFavourite"]?.bool
             self.Image = user["Image"]?.string
-            
             
         } // end of dictionary check
     }// end of init
