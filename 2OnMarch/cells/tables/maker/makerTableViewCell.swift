@@ -11,6 +11,7 @@ import UIKit
 class makerTableViewCell: UITableViewCell {
 
     @IBOutlet weak var makerLogo: UIImageView!
+    @IBOutlet weak var makerStar: UIButton!
     @IBOutlet weak var makerName: UILabel!
     var addMakerToFavorite : (() -> ())?
     override func awakeFromNib() {

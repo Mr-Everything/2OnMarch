@@ -16,17 +16,23 @@ class UserFunctionModel {
     
     class func createUser(user: UserDataModel) {
         let url = UserFunctionModel.mainURL + "Create"
+        var ids = [Int]()
+        user.UserInterestModel.forEach { (id) in
+            ids.append(id.Id)
+        }
         var params = [
             "Name" : user.Name!,
             "Email" : user.Email!,
             "Phone" : user.Phone!,
             "Company" : user.Company!,
             "Title" : user.Title!,
-            "Password": user.Password!
+            "Password": user.Password!,
+            "Interests": ids
         ] as [String: Any]
         if let image = user.ImageUploaded {
             params["ImgFile"] = Request.imageToBase64(image: image)
         }
+        
         print(params)
         
         Request.send(UIViewController(), url: url, way: .post, params: params) { (response, hasData) in

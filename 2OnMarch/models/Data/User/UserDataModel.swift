@@ -34,7 +34,7 @@ class UserDataModel  {
     public var Behance:String?
     public var Image:String?
     public var ImageUploaded:UIImage?
-    public var UserInterestModel = "UserPageModel";
+    public var UserInterestModel = [InterestDataModel]()
     public var UserPageModel = [UserPageDataModel]()
     
     init() {
@@ -65,7 +65,12 @@ class UserDataModel  {
             // bool
             self.IsFavourite = user["IsFavourite"]?.bool
             self.Image = user["Image"]?.string
-            
+            if let interests = user["interests"]?.array {
+                interests.forEach { (item) in
+                    let interest = InterestDataModel(object: item)
+                    self.UserInterestModel.append(interest)
+                }
+            }
         } // end of dictionary check
     }// end of init
     

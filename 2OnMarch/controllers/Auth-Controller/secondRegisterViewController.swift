@@ -42,6 +42,9 @@ class secondRegisterViewController: UIViewController {
     
     @IBAction func confirm(_ sender: UIButton) {
         //userModel.
+        self.selectedInterestes.values.forEach({ (interest) in
+            self.userModel.UserInterestModel.append(interest)
+        })
         UserFunctionModel.createUser(user: userModel)
     }
     
@@ -90,6 +93,7 @@ extension secondRegisterViewController: UITableViewDelegate , UITableViewDataSou
                 }
                 return
             }
+            
         }
     }
     

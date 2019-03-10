@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0097982235428400017969 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0097972235428400017969 /* ProfileViewController.swift */; };
+		8A00979B223543CD00017969 /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00979A223543CD00017969 /* InterestCollectionViewCell.swift */; };
 		8AE4010C222EB1EB005DCF6B /* makerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4010A222EB1EB005DCF6B /* makerTableViewCell.swift */; };
 		8AE4010D222EB1EB005DCF6B /* makerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE4010B222EB1EB005DCF6B /* makerTableViewCell.xib */; };
 		8AE40110222EB202005DCF6B /* activityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4010E222EB202005DCF6B /* activityTableViewCell.swift */; };
 		8AE40111222EB202005DCF6B /* activityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE4010F222EB202005DCF6B /* activityTableViewCell.xib */; };
 		8AE40116222EB333005DCF6B /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE40115222EB333005DCF6B /* ActivityTableViewController.swift */; };
 		8AE40118222EB349005DCF6B /* MakerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE40117222EB349005DCF6B /* MakerTableViewController.swift */; };
-		8AE4011B222EBABF005DCF6B /* makerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4011A222EBABF005DCF6B /* makerDataModel.swift */; };
 		8AE4011D222EBADC005DCF6B /* userPageFunctionalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4011C222EBADC005DCF6B /* userPageFunctionalModel.swift */; };
 		8AE40122222ECBA3005DCF6B /* makerActivityJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE40121222ECBA3005DCF6B /* makerActivityJoinViewController.swift */; };
 		8AE40125222ED7EF005DCF6B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE40124222ED7EF005DCF6B /* SettingViewController.swift */; };
@@ -100,13 +101,14 @@
 		5BC0E3184DA38000CB0BEE7B /* Pods-2OnMarch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2OnMarch.release.xcconfig"; path = "Target Support Files/Pods-2OnMarch/Pods-2OnMarch.release.xcconfig"; sourceTree = "<group>"; };
 		61862DE3013D838F46C47518 /* Pods_2OnMarch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_2OnMarch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DA765EAB224CE70EFCF001 /* Pods-2OnMarch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2OnMarch.debug.xcconfig"; path = "Target Support Files/Pods-2OnMarch/Pods-2OnMarch.debug.xcconfig"; sourceTree = "<group>"; };
+		8A0097972235428400017969 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../../../../../../Documents/ProfileViewController.swift; sourceTree = "<group>"; };
+		8A00979A223543CD00017969 /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InterestCollectionViewCell.swift; path = ../../../../../../../Documents/InterestCollectionViewCell.swift; sourceTree = "<group>"; };
 		8AE4010A222EB1EB005DCF6B /* makerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makerTableViewCell.swift; sourceTree = "<group>"; };
 		8AE4010B222EB1EB005DCF6B /* makerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = makerTableViewCell.xib; sourceTree = "<group>"; };
 		8AE4010E222EB202005DCF6B /* activityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activityTableViewCell.swift; sourceTree = "<group>"; };
 		8AE4010F222EB202005DCF6B /* activityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = activityTableViewCell.xib; sourceTree = "<group>"; };
 		8AE40115222EB333005DCF6B /* ActivityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
 		8AE40117222EB349005DCF6B /* MakerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakerTableViewController.swift; sourceTree = "<group>"; };
-		8AE4011A222EBABF005DCF6B /* makerDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makerDataModel.swift; sourceTree = "<group>"; };
 		8AE4011C222EBADC005DCF6B /* userPageFunctionalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userPageFunctionalModel.swift; sourceTree = "<group>"; };
 		8AE40121222ECBA3005DCF6B /* makerActivityJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makerActivityJoinViewController.swift; sourceTree = "<group>"; };
 		8AE40124222ED7EF005DCF6B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
@@ -211,6 +213,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8A0097962235425000017969 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				8A0097972235428400017969 /* ProfileViewController.swift */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		8A0097992235438C00017969 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				8A00979A223543CD00017969 /* InterestCollectionViewCell.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
 		8AE40108222EB190005DCF6B /* activity */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,14 +254,6 @@
 				8AE40121222ECBA3005DCF6B /* makerActivityJoinViewController.swift */,
 			);
 			path = "commonMakerActivity controllers";
-			sourceTree = "<group>";
-		};
-		8AE40119222EBAA1005DCF6B /* maker */ = {
-			isa = PBXGroup;
-			children = (
-				8AE4011A222EBABF005DCF6B /* makerDataModel.swift */,
-			);
-			path = maker;
 			sourceTree = "<group>";
 		};
 		8AE40120222ECB6B005DCF6B /* makers&activity */ = {
@@ -316,13 +326,13 @@
 			path = segmented;
 			sourceTree = "<group>";
 		};
-		B03494E92225CDAB004B1868 /* UserPageModel */ = {
+		B03494E92225CDAB004B1868 /* UserPageModel-maker */ = {
 			isa = PBXGroup;
 			children = (
 				B03494EA2225CDBD004B1868 /* UserPageDataModel.swift */,
 				8AE4011C222EBADC005DCF6B /* userPageFunctionalModel.swift */,
 			);
-			path = UserPageModel;
+			path = "UserPageModel-maker";
 			sourceTree = "<group>";
 		};
 		B03C66D6220B328C0091ECDB /* viewController */ = {
@@ -445,6 +455,7 @@
 		B0573E79220AE8E9009E20DC /* controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8A0097962235425000017969 /* user */,
 				B01749B6223427980063B2C5 /* contacts */,
 				8AE40123222ED797005DCF6B /* setting */,
 				8AE40112222EB273005DCF6B /* commonMakerActivity controllers */,
@@ -550,13 +561,12 @@
 		B067BC9B220B09400071D42B /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				8AE40119222EBAA1005DCF6B /* maker */,
 				B0F30D362227393B00D4F57E /* UserPageGallaryDataModel */,
 				B0F30D312227358A00D4F57E /* Speakers */,
 				B0F30D2C2227337C00D4F57E /* AgendaRateModel */,
 				B0F30D272227302800D4F57E /* Agenda */,
 				B0F30D222227274900D4F57E /* Announcemnet */,
-				B03494E92225CDAB004B1868 /* UserPageModel */,
+				B03494E92225CDAB004B1868 /* UserPageModel-maker */,
 				B0BE2A35221DE8E1004E2521 /* Notifications  */,
 				B09E88CA221C303F0030A375 /* Interest */,
 				B067BC9D220B09550071D42B /* Main */,
@@ -737,6 +747,7 @@
 		B0BB829B220C7D7D002638E2 /* collection */ = {
 			isa = PBXGroup;
 			children = (
+				8A0097992235438C00017969 /* profile */,
 				B0BB829D220C7D8F002638E2 /* professions */,
 			);
 			path = collection;
@@ -1018,6 +1029,7 @@
 				B0DCAAED2221738500657DEB /* announcementSegmentedViewController.swift in Sources */,
 				8AE40118222EB349005DCF6B /* MakerTableViewController.swift in Sources */,
 				8AE40122222ECBA3005DCF6B /* makerActivityJoinViewController.swift in Sources */,
+				8A00979B223543CD00017969 /* InterestCollectionViewCell.swift in Sources */,
 				B067BC94220B00550071D42B /* IBDesignableButton.swift in Sources */,
 				B09E88C8221C2E120030A375 /* feedsTableViewCell.swift in Sources */,
 				8AE4011D222EBADC005DCF6B /* userPageFunctionalModel.swift in Sources */,
@@ -1028,7 +1040,6 @@
 				B0F30D2E2227338E00D4F57E /* AgendaRateDataModel.swift in Sources */,
 				B09E88BA221B55DF0030A375 /* speratorTableViewCell.swift in Sources */,
 				B067BC9A220B04F20071D42B /* Messenger.swift in Sources */,
-				8AE4011B222EBABF005DCF6B /* makerDataModel.swift in Sources */,
 				B0F30D3A2227394E00D4F57E /* UserPageGallaryFunctionalModel.swift in Sources */,
 				B0BE2A39221DE902004E2521 /* NotificationFunctionModel.swift in Sources */,
 				B08231282221CB5200325F8C /* calenderViewController.swift in Sources */,
@@ -1044,6 +1055,7 @@
 				B0BB8294220C717D002638E2 /* buttonextension.swift in Sources */,
 				8AE40116222EB333005DCF6B /* ActivityTableViewController.swift in Sources */,
 				B0573E8E220AFA3D009E20DC /* Colorextension.swift in Sources */,
+				8A0097982235428400017969 /* ProfileViewController.swift in Sources */,
 				B09E88D4221C35B00030A375 /* mainFeedsViewController.swift in Sources */,
 				B0573E8B220AF8EA009E20DC /* IBDesignableStackView.swift in Sources */,
 				B03C66E4220B40540091ECDB /* forgetPasswordViewController.swift in Sources */,
