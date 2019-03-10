@@ -22,6 +22,7 @@ class scanSegmentedViewController: UIViewController, IndicatorInfoProvider, QRCo
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+        
         if status == true {
             self.status = false
             readerVC.delegate = self
@@ -71,7 +72,7 @@ class scanSegmentedViewController: UIViewController, IndicatorInfoProvider, QRCo
     
     func readerDidCancel(_ reader: QRCodeReaderViewController) {
         reader.stopScanning()
-        
+        self.status = true 
         dismiss(animated: true, completion: nil)
     }
     
