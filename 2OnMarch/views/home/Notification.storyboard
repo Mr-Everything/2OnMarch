@@ -37,6 +37,7 @@
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NJy-dT-k5f">
                                 <rect key="frame" x="0.0" y="160" width="375" height="458"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </scrollView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3tX-L9-bBP" customClass="ButtonBarView" customModule="XLPagerTabStrip">
                                 <rect key="frame" x="0.0" y="100" width="375" height="60"/>
@@ -53,7 +54,7 @@
                                 <cells/>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="Navigation"/>
                         <constraints>
                             <constraint firstItem="NJy-dT-k5f" firstAttribute="leading" secondItem="9bG-Yr-wUG" secondAttribute="leading" id="2ct-3J-9Sf"/>
                             <constraint firstItem="9bG-Yr-wUG" firstAttribute="trailing" secondItem="Bu7-Ls-7tP" secondAttribute="trailing" id="LP3-ro-3Qn"/>
@@ -199,13 +200,21 @@
             </objects>
             <point key="canvasLocation" x="-196" y="-925"/>
         </scene>
+        <!--favoritesViewControllerIdentifier-->
+        <scene sceneID="NGY-YF-l57">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HCb-Va-LmT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="settings" referencedIdentifier="favoritesViewControllerIdentifier" id="div-AJ-ofT" sceneMemberID="viewController"/>
+            </objects>
+            <point key="canvasLocation" x="-1689" y="1063"/>
+        </scene>
         <!--contactsViewControllerIdentifier-->
         <scene sceneID="FU9-Xj-5O6">
             <objects>
                 <viewControllerPlaceholder storyboardName="settings" referencedIdentifier="contactsViewControllerIdentifier" id="mGo-Ug-Fci" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yBc-q2-it7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2527" y="1267"/>
+            <point key="canvasLocation" x="-2104" y="1064"/>
         </scene>
         <!--proVCIdentifire-->
         <scene sceneID="k9c-Lk-C2f">
@@ -349,6 +358,7 @@
                         <outlet property="profileImage" destination="qc8-rQ-KWu" id="LcQ-yg-V30"/>
                         <segue destination="2nu-W1-b2j" kind="show" identifier="displaySpeakersViewController" id="8hN-eX-xvW"/>
                         <segue destination="mGo-Ug-Fci" kind="show" identifier="displayContactsViewController" id="wao-mW-yY1"/>
+                        <segue destination="div-AJ-ofT" kind="show" identifier="displayFavoritesViewController" id="08v-CA-b8M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="84V-17-fJV" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -403,9 +413,10 @@
                             </collectionView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pJF-Eh-x9B">
                                 <rect key="frame" x="0.0" y="86" width="375" height="532"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" name="Navigation"/>
                         <constraints>
                             <constraint firstItem="KgL-aZ-baZ" firstAttribute="leading" secondItem="9V2-uR-dHV" secondAttribute="leading" id="AIJ-oZ-DvD"/>
                             <constraint firstItem="9V2-uR-dHV" firstAttribute="trailing" secondItem="pJF-Eh-x9B" secondAttribute="trailing" id="BIk-c1-PAK"/>

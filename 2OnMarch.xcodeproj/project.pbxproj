@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		8A0097982235428400017969 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0097972235428400017969 /* ProfileViewController.swift */; };
 		8A00979B223543CD00017969 /* InterestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00979A223543CD00017969 /* InterestCollectionViewCell.swift */; };
+		8ABAAFC22236CCE2003A6113 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAAFC12236CCE2003A6113 /* FavoritesViewController.swift */; };
+		8ABAAFC52236CD68003A6113 /* FavoritesActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAAFC42236CD68003A6113 /* FavoritesActivityViewController.swift */; };
+		8ABAAFC72236CD7B003A6113 /* FavoritesMakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAAFC62236CD7B003A6113 /* FavoritesMakersViewController.swift */; };
+		8ABAAFC92236CD8F003A6113 /* FavoritesSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAAFC82236CD8F003A6113 /* FavoritesSessionsViewController.swift */; };
+		8ABAAFCB2236CD9F003A6113 /* FavoritesSpeakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAAFCA2236CD9F003A6113 /* FavoritesSpeakersViewController.swift */; };
 		8AE4010C222EB1EB005DCF6B /* makerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4010A222EB1EB005DCF6B /* makerTableViewCell.swift */; };
 		8AE4010D222EB1EB005DCF6B /* makerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE4010B222EB1EB005DCF6B /* makerTableViewCell.xib */; };
 		8AE40110222EB202005DCF6B /* activityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4010E222EB202005DCF6B /* activityTableViewCell.swift */; };
@@ -103,6 +108,11 @@
 		68DA765EAB224CE70EFCF001 /* Pods-2OnMarch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-2OnMarch.debug.xcconfig"; path = "Target Support Files/Pods-2OnMarch/Pods-2OnMarch.debug.xcconfig"; sourceTree = "<group>"; };
 		8A0097972235428400017969 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../../../../../../Documents/ProfileViewController.swift; sourceTree = "<group>"; };
 		8A00979A223543CD00017969 /* InterestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InterestCollectionViewCell.swift; path = ../../../../../../../Documents/InterestCollectionViewCell.swift; sourceTree = "<group>"; };
+		8ABAAFC12236CCE2003A6113 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		8ABAAFC42236CD68003A6113 /* FavoritesActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesActivityViewController.swift; sourceTree = "<group>"; };
+		8ABAAFC62236CD7B003A6113 /* FavoritesMakersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesMakersViewController.swift; sourceTree = "<group>"; };
+		8ABAAFC82236CD8F003A6113 /* FavoritesSessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesSessionsViewController.swift; sourceTree = "<group>"; };
+		8ABAAFCA2236CD9F003A6113 /* FavoritesSpeakersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesSpeakersViewController.swift; sourceTree = "<group>"; };
 		8AE4010A222EB1EB005DCF6B /* makerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makerTableViewCell.swift; sourceTree = "<group>"; };
 		8AE4010B222EB1EB005DCF6B /* makerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = makerTableViewCell.xib; sourceTree = "<group>"; };
 		8AE4010E222EB202005DCF6B /* activityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activityTableViewCell.swift; sourceTree = "<group>"; };
@@ -227,6 +237,26 @@
 				8A00979A223543CD00017969 /* InterestCollectionViewCell.swift */,
 			);
 			path = profile;
+			sourceTree = "<group>";
+		};
+		8ABAAFC02236CCAE003A6113 /* favorites */ = {
+			isa = PBXGroup;
+			children = (
+				8ABAAFC32236CCF2003A6113 /* segmentedFavorites */,
+				8ABAAFC12236CCE2003A6113 /* FavoritesViewController.swift */,
+			);
+			path = favorites;
+			sourceTree = "<group>";
+		};
+		8ABAAFC32236CCF2003A6113 /* segmentedFavorites */ = {
+			isa = PBXGroup;
+			children = (
+				8ABAAFC42236CD68003A6113 /* FavoritesActivityViewController.swift */,
+				8ABAAFC62236CD7B003A6113 /* FavoritesMakersViewController.swift */,
+				8ABAAFC82236CD8F003A6113 /* FavoritesSessionsViewController.swift */,
+				8ABAAFCA2236CD9F003A6113 /* FavoritesSpeakersViewController.swift */,
+			);
+			path = segmentedFavorites;
 			sourceTree = "<group>";
 		};
 		8AE40108222EB190005DCF6B /* activity */ = {
@@ -455,8 +485,9 @@
 		B0573E79220AE8E9009E20DC /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8A0097962235425000017969 /* user */,
+				8ABAAFC02236CCAE003A6113 /* favorites */,
 				B01749B6223427980063B2C5 /* contacts */,
+				8A0097962235425000017969 /* user */,
 				8AE40123222ED797005DCF6B /* setting */,
 				8AE40112222EB273005DCF6B /* commonMakerActivity controllers */,
 				B082312E222204AA00325F8C /* QRCode */,
@@ -1032,6 +1063,7 @@
 				8A00979B223543CD00017969 /* InterestCollectionViewCell.swift in Sources */,
 				B067BC94220B00550071D42B /* IBDesignableButton.swift in Sources */,
 				B09E88C8221C2E120030A375 /* feedsTableViewCell.swift in Sources */,
+				8ABAAFC22236CCE2003A6113 /* FavoritesViewController.swift in Sources */,
 				8AE4011D222EBADC005DCF6B /* userPageFunctionalModel.swift in Sources */,
 				8AE40110222EB202005DCF6B /* activityTableViewCell.swift in Sources */,
 				B01749B522341B200063B2C5 /* applicationExt.swift in Sources */,
@@ -1056,6 +1088,7 @@
 				8AE40116222EB333005DCF6B /* ActivityTableViewController.swift in Sources */,
 				B0573E8E220AFA3D009E20DC /* Colorextension.swift in Sources */,
 				8A0097982235428400017969 /* ProfileViewController.swift in Sources */,
+				8ABAAFC92236CD8F003A6113 /* FavoritesSessionsViewController.swift in Sources */,
 				B09E88D4221C35B00030A375 /* mainFeedsViewController.swift in Sources */,
 				B0573E8B220AF8EA009E20DC /* IBDesignableStackView.swift in Sources */,
 				B03C66E4220B40540091ECDB /* forgetPasswordViewController.swift in Sources */,
@@ -1065,8 +1098,10 @@
 				B0F30D262227277100D4F57E /* AnnouncementsFunctionalModel.swift in Sources */,
 				B09E88B1221B4C5D0030A375 /* interestesTableViewCell.swift in Sources */,
 				B0BE2A37221DE8F2004E2521 /* NotificationDataModel.swift in Sources */,
+				8ABAAFC52236CD68003A6113 /* FavoritesActivityViewController.swift in Sources */,
 				B01749B8223427A60063B2C5 /* contactsViewController.swift in Sources */,
 				B0F30D332227359400D4F57E /* SpeakersDataModel.swift in Sources */,
+				8ABAAFCB2236CD9F003A6113 /* FavoritesSpeakersViewController.swift in Sources */,
 				B0F30D242227276500D4F57E /* AnnouncementsDataModel.swift in Sources */,
 				B01749BD2234280B0063B2C5 /* followersSegmentedViewController.swift in Sources */,
 				B0F30D2B2227304100D4F57E /* AgendaFunctionalModel.swift in Sources */,
@@ -1085,6 +1120,7 @@
 				8AE4010C222EB1EB005DCF6B /* makerTableViewCell.swift in Sources */,
 				B09E88CC221C305E0030A375 /* InterestDataModel.swift in Sources */,
 				B09E88D1221C34960030A375 /* StoryBoard.swift in Sources */,
+				8ABAAFC72236CD7B003A6113 /* FavoritesMakersViewController.swift in Sources */,
 				B0823130222204C000325F8C /* qrcodeViewController.swift in Sources */,
 				B09E88B7221B52C60030A375 /* Constants.swift in Sources */,
 				B0F30D292227303200D4F57E /* AgendaDataModel.swift in Sources */,
