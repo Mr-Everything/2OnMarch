@@ -48,7 +48,7 @@
         <!--Favorites Speakers View Controller-->
         <scene sceneID="VlD-iY-pCh">
             <objects>
-                <viewController storyboardIdentifier="FavoritesSpeakersSegmentedViewController" id="b2G-Bi-Xso" customClass="FavoritesSpeakersViewController" customModule="_OnMarch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="favoritesSpeakersTableViewCell" id="b2G-Bi-Xso" customClass="FavoritesSpeakersViewController" customModule="_OnMarch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s8h-tM-aos">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,7 +87,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hpp-Zk-t3B">
                                 <rect key="frame" x="0.0" y="70" width="375" height="597"/>
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PYd-8X-fJ1">
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" pagingEnabled="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PYd-8X-fJ1">
                                         <rect key="frame" x="16" y="16" width="343" height="565"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
@@ -458,7 +458,7 @@
         <!--Favorites Sessions View Controller-->
         <scene sceneID="FNx-Ae-CVq">
             <objects>
-                <viewController storyboardIdentifier="FavoritesSessionsSegmentedViewController" id="iZe-Q2-hEf" customClass="FavoritesSessionsViewController" customModule="_OnMarch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="favoritesAgendaTableViewCell" id="iZe-Q2-hEf" customClass="FavoritesSessionsViewController" customModule="_OnMarch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0c2-Fh-JzF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -498,7 +498,7 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="597"/>
                                 <color key="backgroundColor" name="offWhite"/>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Peq-no-j46">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" pagingEnabled="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Peq-no-j46">
                                 <rect key="frame" x="16" y="86" width="343" height="565"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
@@ -535,7 +535,7 @@
         <!--Favorites Makers View Controller-->
         <scene sceneID="Bli-AH-4tK">
             <objects>
-                <viewController storyboardIdentifier="FavoritesMakersSegmentedViewController" id="wnA-Jx-HQF" customClass="FavoritesMakersViewController" customModule="_OnMarch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="favoritesMakersTableViewCell" id="wnA-Jx-HQF" customClass="FavoritesMakersViewController" customModule="_OnMarch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P2E-Ov-87e">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -575,7 +575,7 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="597"/>
                                 <color key="backgroundColor" name="offWhite"/>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Www-Eq-mzn">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" pagingEnabled="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Www-Eq-mzn">
                                 <rect key="frame" x="16" y="86" width="343" height="565"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
@@ -612,7 +612,7 @@
         <!--Favorites Activity View Controller-->
         <scene sceneID="QIs-F4-JWY">
             <objects>
-                <viewController storyboardIdentifier="FavoritesActivitySegmentedViewController" id="YmB-8v-g3X" customClass="FavoritesActivityViewController" customModule="_OnMarch" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="favoritesActivityTableViewCell" id="YmB-8v-g3X" customClass="FavoritesActivityViewController" customModule="_OnMarch" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zlf-Sp-Tx7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -652,7 +652,7 @@
                                 <rect key="frame" x="0.0" y="70" width="375" height="597"/>
                                 <color key="backgroundColor" name="offWhite"/>
                             </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cOz-OR-Cea">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" pagingEnabled="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cOz-OR-Cea">
                                 <rect key="frame" x="16" y="86" width="343" height="565"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>

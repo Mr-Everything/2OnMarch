@@ -15,9 +15,13 @@ class UserPageFunctionalModel {
     static var controller: UIViewController = homeAppViewController()
     static let mainURL: String = mainModel.mainURL + "App/"
     
-    class func getData(params : [String: Any], completion: @escaping (_ professions: [UserPageDataModel]) -> ()) {
-        
-        let url = UserPageFunctionalModel.mainURL + "GetAllUserPages"
+    class func getData(_ link: String = "" ,params : [String: Any], completion: @escaping (_ professions: [UserPageDataModel]) -> ()) {
+        var url: String!
+        if link.isEmpty == false {
+            url = link
+        } else {
+            url = UserPageFunctionalModel.mainURL + "GetAllUserPages"
+        }
         Request.send(self.controller, url: url, way: .get, params: params) { (response, hasData) in
             if hasData == true {
                 if let result = response?["Data"].array {

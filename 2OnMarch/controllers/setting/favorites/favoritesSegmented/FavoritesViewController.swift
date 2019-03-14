@@ -10,7 +10,7 @@ import UIKit
 import XLPagerTabStrip
 
 class FavoritesViewController: ButtonBarPagerTabStripViewController, IndicatorInfoProvider {
-
+    
     override func viewDidLoad() {
         
         settings.style.buttonBarItemTitleColor = .white
@@ -23,27 +23,32 @@ class FavoritesViewController: ButtonBarPagerTabStripViewController, IndicatorIn
     }
     
     
-     override func viewDidAppear(_ animated: Bool) {
-     super.viewDidAppear(true)
-     }
-     
-     override func viewDidDisappear(_ animated: Bool) {
-     super.viewDidDisappear(true)
-     }
-     
-     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-     return IndicatorInfo(title: "SPEAKERS")
-     }
-     
-     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
-     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(true)
+    }
+    
+    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
+        return IndicatorInfo(title: "SPEAKERS")
+    }
+    
+    override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
+        
         let Speakers = StoryBoard.returnViewController(sb: "segmented", identifier: "favoritesSpeakersTableViewCell")
-        let Activity = StoryBoard.returnViewController(sb: "segmented", identifier: "favoritesActivityTableViewCell")
+        
         let Agenda = StoryBoard.returnViewController(sb: "segmented", identifier: "favoritesAgendaTableViewCell")
+        
         let Makers = StoryBoard.returnViewController(sb: "segmented", identifier: "favoritesMakersTableViewCell")
-     
-     return [Speakers, Activity, Agenda, Makers]
-     }
+        
+        let Activity = StoryBoard.returnViewController(sb: "segmented", identifier: "favoritesActivityTableViewCell")
+        
+        
+        
+        return [Speakers, Agenda, Makers , Activity]
+    }
     
     @IBAction func back(_ sender: UIButton) {
         dismiss(animated: true)

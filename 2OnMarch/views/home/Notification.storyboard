@@ -200,11 +200,11 @@
             </objects>
             <point key="canvasLocation" x="-196" y="-925"/>
         </scene>
-        <!--favoritesViewControllerIdentifier-->
+        <!--favoritesTableViewCellIdentifire-->
         <scene sceneID="NGY-YF-l57">
             <objects>
+                <viewControllerPlaceholder storyboardName="settings" referencedIdentifier="favoritesTableViewCellIdentifire" id="div-AJ-ofT" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HCb-Va-LmT" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewControllerPlaceholder storyboardName="settings" referencedIdentifier="favoritesViewControllerIdentifier" id="div-AJ-ofT" sceneMemberID="viewController"/>
             </objects>
             <point key="canvasLocation" x="-1689" y="1063"/>
         </scene>
@@ -358,7 +358,7 @@
                         <outlet property="profileImage" destination="qc8-rQ-KWu" id="LcQ-yg-V30"/>
                         <segue destination="2nu-W1-b2j" kind="show" identifier="displaySpeakersViewController" id="8hN-eX-xvW"/>
                         <segue destination="mGo-Ug-Fci" kind="show" identifier="displayContactsViewController" id="wao-mW-yY1"/>
-                        <segue destination="div-AJ-ofT" kind="show" identifier="displayFavoritesViewController" id="08v-CA-b8M"/>
+                        <segue destination="div-AJ-ofT" kind="show" identifier="displayFavoritesViewControllerSegue" id="08v-CA-b8M"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="84V-17-fJV" userLabel="First Responder" sceneMemberID="firstResponder"/>

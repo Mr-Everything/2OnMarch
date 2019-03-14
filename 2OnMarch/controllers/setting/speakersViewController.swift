@@ -20,8 +20,8 @@ class speakersViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        
-        let params = ["Fk_User": DataModel.user.Id] as [String: Any]
+        SpeakersFunctionalModel.controller = self
+        let params = ["Fk_User": DataModel.user.Id!] as [String: Any]
         SpeakersFunctionalModel.getData(params: params) { (speakers) in
             self.speakers = speakers
             self.classTableView.reloadData()

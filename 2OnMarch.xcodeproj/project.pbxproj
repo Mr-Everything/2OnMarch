@@ -239,13 +239,13 @@
 			path = profile;
 			sourceTree = "<group>";
 		};
-		8ABAAFC02236CCAE003A6113 /* favorites */ = {
+		8ABAAFC02236CCAE003A6113 /* favoritesSegmented */ = {
 			isa = PBXGroup;
 			children = (
 				8ABAAFC32236CCF2003A6113 /* segmentedFavorites */,
 				8ABAAFC12236CCE2003A6113 /* FavoritesViewController.swift */,
 			);
-			path = favorites;
+			path = favoritesSegmented;
 			sourceTree = "<group>";
 		};
 		8ABAAFC32236CCF2003A6113 /* segmentedFavorites */ = {
@@ -298,10 +298,20 @@
 		8AE40123222ED797005DCF6B /* setting */ = {
 			isa = PBXGroup;
 			children = (
-				8AE40124222ED7EF005DCF6B /* SettingViewController.swift */,
+				B01749B6223427980063B2C5 /* contacts */,
+				8AFB0A5D223A92E800671C69 /* favorites */,
 				B01749B122340F0A0063B2C5 /* speakersViewController.swift */,
 			);
 			path = setting;
+			sourceTree = "<group>";
+		};
+		8AFB0A5D223A92E800671C69 /* favorites */ = {
+			isa = PBXGroup;
+			children = (
+				8ABAAFC02236CCAE003A6113 /* favoritesSegmented */,
+				8AE40124222ED7EF005DCF6B /* SettingViewController.swift */,
+			);
+			path = favorites;
 			sourceTree = "<group>";
 		};
 		B01749AE22340ED50063B2C5 /* settings */ = {
@@ -485,8 +495,6 @@
 		B0573E79220AE8E9009E20DC /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				8ABAAFC02236CCAE003A6113 /* favorites */,
-				B01749B6223427980063B2C5 /* contacts */,
 				8A0097962235425000017969 /* user */,
 				8AE40123222ED797005DCF6B /* setting */,
 				8AE40112222EB273005DCF6B /* commonMakerActivity controllers */,

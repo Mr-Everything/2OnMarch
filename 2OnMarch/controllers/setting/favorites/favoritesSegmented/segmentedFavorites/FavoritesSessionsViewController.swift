@@ -1,5 +1,5 @@
 //
-//  FavoritesActivityViewController.swift
+//  FavoritesSessionsViewController.swift
 //  2OnMarch
 //
 //  Created by Kamal on 3/11/19.
@@ -8,11 +8,11 @@
 
 import UIKit
 import XLPagerTabStrip
-fileprivate let nib_identifier = "favoritesActivityTableViewCell"
+fileprivate let nib_identifier = "favoritesAgendaTableViewCell"
 
-class FavoritesActivityViewController: UIViewController {
+class FavoritesSessionsViewController: UIViewController ,IndicatorInfoProvider{
 
-    @IBOutlet weak var searchActivityTF: UITextField!
+    @IBOutlet weak var searchAgendaTF: UITextField!
     @IBOutlet weak var classTableView: UITableView!
     
     override func viewDidLoad() {
@@ -21,11 +21,12 @@ class FavoritesActivityViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        classTableView.register(with: nib_identifier)
         super.viewDidAppear(animated)
     }
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return IndicatorInfo(title: "ACTIVITES")
+        return IndicatorInfo(title: "AGENDA")
     }
     
     override func viewDidDisappear(_ animated: Bool) {
@@ -34,15 +35,13 @@ class FavoritesActivityViewController: UIViewController {
     
 }
 
-extension FavoritesActivityViewController: UITableViewDelegate, UITableViewDataSource {
+extension FavoritesSessionsViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: nib_identifier, for: indexPath) as! makerTableViewCell // ???????????????
+        let cell = tableView.dequeueReusableCell(withIdentifier: nib_identifier, for: indexPath) as! makerTableViewCell // ?????????????
         return cell
     }
 }
-
-

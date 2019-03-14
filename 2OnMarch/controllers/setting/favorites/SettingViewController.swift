@@ -15,7 +15,7 @@ class SettingViewController: UIViewController {
     
     let logoArr = ["menu_contact", "menu_speakers", "menu_map" , "menu_fav", "menu_food","menu_sponsors" , "menu_about", "logout"]
     let nameArr = ["Contacts", "Speakers", "Map" , "Favorites", "Food" , "Sponsors", "About" , "Logout"]
-    let references  = ["displayContactsViewController", "displaySpeakersViewController","", "displayFavoritesViewController"]
+    let references  = ["displayContactsViewController", "displaySpeakersViewController","", "displayFavoritesViewControllerSegue"]
     
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var company: UILabel!
