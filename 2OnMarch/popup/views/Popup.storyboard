@@ -19,24 +19,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yUb-Py-cIr">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yUb-Py-cIr">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h1O-g1-sAJ">
-                                        <rect key="frame" x="28" y="262" width="318" height="142"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h1O-g1-sAJ">
+                                        <rect key="frame" x="28" y="262.5" width="319" height="142"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Forget Password ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0x-wI-lBD">
-                                                <rect key="frame" x="78" y="8" width="159" height="24"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forget Password ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0x-wI-lBD">
+                                                <rect key="frame" x="80" y="8" width="159" height="24"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="24" id="gdk-AG-0yC"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XHC-92-NYk" customClass="IBDesignableTextField" customModule="_OnMarch" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="44" width="276" height="40"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XHC-92-NYk" customClass="IBDesignableTextField" customModule="_OnMarch" customModuleProvider="target">
+                                                <rect key="frame" x="20" y="44" width="279" height="40"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -49,10 +48,13 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSd-j2-PyP">
-                                                <rect key="frame" x="107" y="96" width="101" height="38"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSd-j2-PyP">
+                                                <rect key="frame" x="109.5" y="96" width="100" height="38"/>
                                                 <color key="backgroundColor" name="Background"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="2wj-TC-2bd"/>
+                                                    <constraint firstAttribute="height" constant="38" id="PMa-14-aLn"/>
+                                                </constraints>
                                                 <state key="normal" title="Send">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -62,12 +64,35 @@
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="RSd-j2-PyP" firstAttribute="centerX" secondItem="h1O-g1-sAJ" secondAttribute="centerX" id="AJP-5M-Z1B"/>
+                                            <constraint firstAttribute="height" constant="142" id="C6k-jX-aGT"/>
+                                            <constraint firstItem="RSd-j2-PyP" firstAttribute="top" secondItem="XHC-92-NYk" secondAttribute="bottom" constant="12" id="JXV-f3-pBn"/>
+                                            <constraint firstItem="L0x-wI-lBD" firstAttribute="centerX" secondItem="h1O-g1-sAJ" secondAttribute="centerX" id="Mlc-Vn-2yr"/>
+                                            <constraint firstAttribute="bottom" secondItem="RSd-j2-PyP" secondAttribute="bottom" constant="8" id="UaZ-NJ-LA7"/>
+                                            <constraint firstItem="L0x-wI-lBD" firstAttribute="top" secondItem="h1O-g1-sAJ" secondAttribute="top" constant="8" id="VtF-5e-Jfe"/>
+                                            <constraint firstAttribute="trailing" secondItem="XHC-92-NYk" secondAttribute="trailing" constant="20" id="bgc-Bu-a4C"/>
+                                            <constraint firstItem="XHC-92-NYk" firstAttribute="leading" secondItem="h1O-g1-sAJ" secondAttribute="leading" constant="20" id="cUf-kq-wPL"/>
+                                            <constraint firstItem="XHC-92-NYk" firstAttribute="top" secondItem="L0x-wI-lBD" secondAttribute="bottom" constant="12" id="oo8-br-Cir"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="h1O-g1-sAJ" secondAttribute="trailing" constant="28" id="g1K-fw-hae"/>
+                                    <constraint firstItem="h1O-g1-sAJ" firstAttribute="leading" secondItem="yUb-Py-cIr" secondAttribute="leading" constant="28" id="n2S-gE-LIA"/>
+                                    <constraint firstItem="h1O-g1-sAJ" firstAttribute="centerY" secondItem="yUb-Py-cIr" secondAttribute="centerY" id="the-hI-8AO"/>
+                                    <constraint firstItem="h1O-g1-sAJ" firstAttribute="centerX" secondItem="yUb-Py-cIr" secondAttribute="centerX" id="wIw-2m-T6Y"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yUb-Py-cIr" firstAttribute="leading" secondItem="nKd-yL-rct" secondAttribute="leading" id="DHj-lw-r6e"/>
+                            <constraint firstItem="yUb-Py-cIr" firstAttribute="top" secondItem="4U9-Rr-15U" secondAttribute="top" id="DnI-sH-3aA"/>
+                            <constraint firstItem="yUb-Py-cIr" firstAttribute="bottom" secondItem="nKd-yL-rct" secondAttribute="bottom" id="I2a-0U-Aj3"/>
+                            <constraint firstItem="yUb-Py-cIr" firstAttribute="trailing" secondItem="nKd-yL-rct" secondAttribute="trailing" id="xlj-5T-FCJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nKd-yL-rct"/>
                     </view>
                     <connections>

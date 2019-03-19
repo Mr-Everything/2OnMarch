@@ -14,6 +14,7 @@
 		8ABAAFC72236CD7B003A6113 /* FavoritesMakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAAFC62236CD7B003A6113 /* FavoritesMakersViewController.swift */; };
 		8ABAAFC92236CD8F003A6113 /* FavoritesSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAAFC82236CD8F003A6113 /* FavoritesSessionsViewController.swift */; };
 		8ABAAFCB2236CD9F003A6113 /* FavoritesSpeakersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABAAFCA2236CD9F003A6113 /* FavoritesSpeakersViewController.swift */; };
+		8AE0936622402B2E0073E06D /* textFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE0936522402B2E0073E06D /* textFieldView.swift */; };
 		8AE4010C222EB1EB005DCF6B /* makerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4010A222EB1EB005DCF6B /* makerTableViewCell.swift */; };
 		8AE4010D222EB1EB005DCF6B /* makerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AE4010B222EB1EB005DCF6B /* makerTableViewCell.xib */; };
 		8AE40110222EB202005DCF6B /* activityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4010E222EB202005DCF6B /* activityTableViewCell.swift */; };
@@ -113,6 +114,7 @@
 		8ABAAFC62236CD7B003A6113 /* FavoritesMakersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesMakersViewController.swift; sourceTree = "<group>"; };
 		8ABAAFC82236CD8F003A6113 /* FavoritesSessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesSessionsViewController.swift; sourceTree = "<group>"; };
 		8ABAAFCA2236CD9F003A6113 /* FavoritesSpeakersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesSpeakersViewController.swift; sourceTree = "<group>"; };
+		8AE0936522402B2E0073E06D /* textFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textFieldView.swift; sourceTree = "<group>"; };
 		8AE4010A222EB1EB005DCF6B /* makerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makerTableViewCell.swift; sourceTree = "<group>"; };
 		8AE4010B222EB1EB005DCF6B /* makerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = makerTableViewCell.xib; sourceTree = "<group>"; };
 		8AE4010E222EB202005DCF6B /* activityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activityTableViewCell.swift; sourceTree = "<group>"; };
@@ -712,6 +714,7 @@
 			isa = PBXGroup;
 			children = (
 				B09E88C3221C2CF00030A375 /* IBDesignableView.swift */,
+				8AE0936522402B2E0073E06D /* textFieldView.swift */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -1125,6 +1128,7 @@
 				B03C66DA220B34450091ECDB /* Data.swift in Sources */,
 				B01D06502233FFA0009571B5 /* scanSegmentedViewController.swift in Sources */,
 				B082312C2221CC1F00325F8C /* calenderTableViewCell.swift in Sources */,
+				8AE0936622402B2E0073E06D /* textFieldView.swift in Sources */,
 				8AE4010C222EB1EB005DCF6B /* makerTableViewCell.swift in Sources */,
 				B09E88CC221C305E0030A375 /* InterestDataModel.swift in Sources */,
 				B09E88D1221C34960030A375 /* StoryBoard.swift in Sources */,
@@ -1292,7 +1296,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dinnova.-OnMarch";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dinnova.techno-print";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -1314,7 +1318,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.dinnova.-OnMarch";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dinnova.techno-print";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;

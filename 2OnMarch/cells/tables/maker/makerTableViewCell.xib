@@ -62,7 +62,7 @@
                 <outlet property="makerName" destination="Dnq-6P-Jkd" id="UC6-n0-gCa"/>
                 <outlet property="makerStar" destination="IX3-QU-tfg" id="yKU-u4-tN1"/>
             </connections>
-            <point key="canvasLocation" x="52.799999999999997" y="48.575712143928037"/>
+            <point key="canvasLocation" x="-323" y="49"/>
         </tableViewCell>
     </objects>
     <resources>

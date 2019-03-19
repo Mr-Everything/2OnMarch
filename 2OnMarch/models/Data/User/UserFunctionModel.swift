@@ -14,6 +14,7 @@ class UserFunctionModel {
     static var controller: UIViewController = loginViewController()
     static let mainURL: String = mainModel.mainURL + "User/"
     
+    
     class func createUser(user: UserDataModel) {
         let url = UserFunctionModel.mainURL + "Create"
         var ids = [Int]()
@@ -43,6 +44,7 @@ class UserFunctionModel {
             }
         }
     }
+    
     
     class func updateUser(user: UserDataModel) {
         
